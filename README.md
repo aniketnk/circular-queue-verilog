@@ -39,7 +39,7 @@ Read and write addresses are initially both at the first memory location. When t
 ## Running
 To compile and build, run the following command:
 ```
-iverilog lib.v cq.v reg_alu.v alu.v tb_cq.v dfrl.v -o out && vvp out
+iverilog lib.v cq.v reg_alu.v alu.v tb_cq.v -o out && vvp out
 ```
 To view the output using gtkwave:
 ```
