@@ -1,0 +1,15 @@
+**/pdf
+out
+*.vcd
+
+# OS stuff
+Desktop.ini
+ehthumbs.db
+Thumbs.db
+$RECYCLE.BIN/
+._*
+.DS_Store
+.Spotlight-V100
+.Trashes
+.vscode/
+
