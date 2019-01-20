@@ -12,6 +12,8 @@ A FIFO Buffer is a read/write memory array that automatically keep track of the 
 
 Read and write addresses are initially both at the first memory location. When the read address and write address are equal then the FIFO queue is _Empty_. When the write address is _one_ value behind the read address of the FIFO buffer then the FIFO queue is _Full_.
 
+![Circuit Diagram](https://i.imgur.com/dXUbZDX.jpg)
+
 ### Modules used
 
 #### Modules from lib.v file
