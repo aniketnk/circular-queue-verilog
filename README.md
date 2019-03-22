@@ -1,5 +1,11 @@
 # Circular Queue – FIFO implementation in hardware
 
+## Team Members:
+1.  Aniket Kaulavkar 
+2.  Rishi Ravikumar 
+3.  Vishnu S Murali 
+4.  Ziyan Zafar
+
 ## Problem Description
 
 Implement a circular queue (FIFO) buffer in hardware using Icarus Verilog. A FIFO(First in First Out) buffer is an elastic storage usually used between two subsystems. As the name indicates the memory that is first written into the FIFO is the first to be read or processed. A FIFO has two control signals i.e. write and read. When write is enabled data is written into the buffer and when read is enabled data is "removed" from the buffer to make room for more data.
